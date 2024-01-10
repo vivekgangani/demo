@@ -1,0 +1,88 @@
+618  cat id_rsa
+  619  cat id_rsa.pub
+  620  cd .ssh
+  621  cd /var/jenkins_home/workspace/demo-jenkins
+  622  cd ..
+  623  cd /var/jenkins_home/workspace/demo-jenkins
+  624  docker exec -it bc9e5c88d45c bash
+  625  apt update && apt install sudo curl && curl -sL https://raw.githubusercontent.com/Unitech/pm2/master/packager/setup.deb.sh | sudo -E bash -
+  626  npm --version
+  627  apt install npm
+  628  npm run start
+  629  npm install pm2 -g
+  630  apt update && apt install sudo curl && curl -sL https://raw.githubusercontent.com/Unitech/pm2/master/packager/setup.deb.sh | sudo -E bash -
+  631  ls
+  632  cd demogit/
+  633  ls
+  634  cd git
+  635  cd ..
+  636  cd git-demo/
+  637  ls
+  638  cd snap
+  639  cd ..
+  640  cd snap
+  641  ls
+  642  ls
+  643  cd git-demo/
+  644  ls
+  645  cd ../
+  646  cd demogit/
+  647  ls
+  648  cd ../git-demo/
+  649  ls
+  650  cat NetrwMessage
+  651  cd
+  652  ls
+  653  cd snap/
+  654  ls
+  655  cd lxd/
+  656  ls
+  657  cd ../
+  658  cd
+  659  git clone
+  660  git clone https://github.com/tajinder-tg/ts-base-code.git
+  661  ls
+  662  cd ts-base-code/
+  663  npm install
+  664  cd
+  665  sudo apt install -y nodejs
+  666  node -v
+  667  sudo npm install -g npm@latest
+  668  npm -v
+  669  ls
+  670  cd ts-base-code/
+  671  npm install
+  672  ls
+  673  npm run start
+  674  cd
+  675  sudo apt-get install gnupg curl
+  676  curl -fsSL https://pgp.mongodb.com/server-7.0.asc |    sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg    --dearmor
+  677  echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
+  678  sudo apt-get update
+  679  sudo apt-get install -y mongodb-org
+  680  echo "mongodb-org hold" | sudo dpkg --set-selections
+  681  echo "mongodb-org-database hold" | sudo dpkg --set-selections
+  682  echo "mongodb-org-server hold" | sudo dpkg --set-selections
+  683  echo "mongodb-mongosh hold" | sudo dpkg --set-selections
+  684  echo "mongodb-org-mongos hold" | sudo dpkg --set-selections
+  685  echo "mongodb-org-tools hold" | sudo dpkg --set-selections
+  686  sudo systemctl start mongod
+  687  sudo systemctl status mongod
+  688  sudo systemctl enable mongod
+  689  sudo systemctl stop mongod
+  690  sudo systemctl restart mongod
+  691  mongosh
+  692  ls
+  693  cd ts-base-code/
+  694  npm run start
+  695  cd
+  696  sudo nano /etc/nginx/sites-available/default
+  697  sudo service nginx restart
+  698  ls
+  699  cd ts-base-code/
+  700  ls
+  701  pm2 start npm --name "magic" -- start
+  702  npm install pm2 -g
+  703  pm2 start npm --name "magic" -- start
+  704  pm2 logs
+  705  history
